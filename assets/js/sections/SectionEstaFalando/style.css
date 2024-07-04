@@ -1,0 +1,22 @@
+.section-estao-falando{
+    color: #002244;
+    background-color: #cccccc;
+    padding:0.5rem;
+    margin-top: 100px;
+}
+
+.section-esta-falando__container{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding:0rem
+}
+
+.section-esta-falando__container h2 {
+    width:100%;
+}
+
+.section-esta-falando__container h3 {
+    width: 100%;
+}

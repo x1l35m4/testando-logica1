@@ -1,0 +1,20 @@
+[
+    {
+        "foto": "/assets/img/clientes/fp_default.png",
+        "nome": "Carlos",
+        "profissao": "Bolzonarista",
+        "comentario": "lorem lorem lorem bla blabla, odio praesentium recusandae dicta autem"
+    },
+    {
+        "foto": "/assets/img/clientes/fp_default.png",
+        "nome": "Daniel",
+        "profissao": "Fogueteiro",
+        "comentario": " Corporis voluptatum est odio praesentium recusandae dicta autem, amet cupiditate ipsam eveniet harum aperiam repellendus"
+    },
+    {
+        "foto": "/assets/img/clientes/fp_default.png",
+        "nome": "Roberto",
+        "profissao": "Aviãozinho",
+        "comentario": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur odio at totam ea laborum omnis."
+    }
+]

@@ -1,0 +1,41 @@
+:root{
+  --link1:#3333ff;
+  --white1:#dddddd;
+  --black1:#222222;
+  --red1: #ff0000;
+  --yellow1:#ffff00;
+  --green1:#00ff00;
+  --blue0:#00ffff;
+  --blue1:#0000ff;
+  --gray0:#cccccc;
+  --gray1:#aaaaaa;
+  --gray2:#333333;
+}
+
+*{
+    font-size: 1rem;
+}
+
+a:hover{
+ color: #ffffff;
+}
+
+.border__nn{
+  border: 0px solid var(--red1);
+}
+
+.border__r{
+  border: 1px solid var(--red1);
+}
+
+.border__g{
+  border: 1px solid var(--green1);
+}
+
+.border__b{
+  border: 1px solid var(--blue1);
+}
+
+.active{
+  display: block;
+}

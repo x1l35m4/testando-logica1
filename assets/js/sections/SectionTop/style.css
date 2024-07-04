@@ -1,0 +1,28 @@
+.section-top{
+    color: #002244;
+    background-color: #cccccc;
+    padding:0.5rem;
+}
+
+.section-top__container {
+    width:100%;
+    display: flex;
+    align-items: center;
+    padding:0rem
+}
+
+.section-top__container h2 {
+    margin:0
+}
+
+.section-top__container h3 {
+    margin:0
+}
+
+.section-top__container p {
+
+}
+
+.section-top__container button {
+   
+}

@@ -1,0 +1,102 @@
+    :root{
+        --header-height:52px
+    }
+    .header{
+        position: relative;
+        color: var(--red1);
+        background-color: var(--gray2);
+        padding:0rem;
+    }
+
+    .header__container {
+        width:100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding:0rem
+    }
+
+    .header__container-logo {
+        background-color: var(--yellow1);
+        width: 30%;
+        max-width:150px;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        padding: 0.2rem;
+    }
+
+    .header__container__buttom-menu{
+        display: block;
+        width: auto;
+        padding: 0.5rem;
+        background-color: var(--yellow);
+    }
+
+    .header__container__buttom-menu button{
+        background-color: rgba(255, 255, 255, 0);
+        color: var(--white1);
+        font-weight: bold; 
+        border: none;
+    }
+
+    .header__container__buttom-menu button:active{
+        background-color: rgba(255, 255, 255, 1);
+        color: var(--black1);
+    }
+
+    .header__container-menu {
+        background-color: var(--white1);
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        right: 0px;
+        top: var(--header-height);
+    }
+
+    .header__container-links {
+        width: auto;
+        list-style: none;
+        padding: 0.5rem;
+    }
+
+    .header__container-links li {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .header__container-links a {
+        font-weight:bold;
+        color: var(--link);
+        text-decoration: none;
+        margin-left: 0.2rem;
+        border: 0px solid var(--link);
+        padding: 0.2rem;
+    }
+
+
+@media screen and (min-width:768px)  {
+
+    .header__container-menu {
+        background-color: rgba(255, 255, 255, 0);
+        position: relative;
+        width: 70%;
+        height: auto;
+        right: auto;
+        top: auto;
+    }
+
+    .header__container__buttom-menu{
+        display: none;
+        width: auto;
+        padding: 0.5rem;
+        background-color: var(--yellow);
+    }
+
+    .header__container-links li {
+        display: block;
+        flex-direction: row;
+        text-align: center;
+    }
+}
