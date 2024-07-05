@@ -14,7 +14,15 @@ window.addEventListener("load", (evt)=>{
     console.log("Resize");
     document.documentElement.style.setProperty('--header-height', `${headerHeight.clientHeight}px`);
   })
+  
+  const btnMenu = document.querySelector("#btnMenu");
+  const menu = document.querySelector("#menu");
+  const listTags= document.querySelectorAll("#menu a, #btnMenu");
+
+  listTags.forEach(tag=>tag.addEventListener("mousedown", ()=>toggleMenu(menu)));
 }) 
+
+
  
   let html = /*HTML*/`
   <header id="header" class="header">
@@ -23,9 +31,9 @@ window.addEventListener("load", (evt)=>{
         ${Imagem(logoImage)}
       </div>
     <div class="header__container__buttom-menu border__nn">
-      <button>MENU</button>
+      <button id="btnMenu">MENU</button>
     </div>  
-    <div class="header__container-menu border__g">  
+    <div id="menu" class="header__container-menu border__g">  
       <ul class="header__container-links border__b">
         <li>
           <a href="#">Início</a>
@@ -39,4 +47,12 @@ window.addEventListener("load", (evt)=>{
   </header>
   `;
   return html;
+}
+
+function toggleMenu(menu){
+   if (menu.classList.contains("active")) {
+     menu.classList.remove("active")
+   } else {
+     menu.classList.add("active")
+   }
 }

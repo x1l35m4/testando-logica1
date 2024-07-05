@@ -37,5 +37,5 @@ a:hover{
 }
 
 .active{
-  display: block;
+  display: block  !important;
 }
