@@ -30,7 +30,7 @@ export default function SectionEstaFalando() {
             <p>Nenhum cliente foi encontrado</p>
             `
           }
-          <p>
+          <p style="margin-top:50px">
           Garanta o Dobro de Clientes com uma <br>
           Estrutura 100% Personalizada para 
           Seu Produto ou Serviço!
@@ -44,6 +44,7 @@ export default function SectionEstaFalando() {
   `;
    document.getElementById("sectionClientes").innerHTML = html;
   });
+
 
   return htmlBase;
 }

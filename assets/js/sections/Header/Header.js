@@ -30,11 +30,11 @@ window.addEventListener("load", (evt)=>{
       <div class="header__container-logo">
         ${Imagem(logoImage)}
       </div>
-    <div class="header__container__buttom-menu border__nn">
+    <div class="header__container__buttom-menu">
       <button id="btnMenu">MENU</button>
     </div>  
-    <div id="menu" class="header__container-menu border__g">  
-      <ul class="header__container-links border__b">
+    <div id="menu" class="header__container-menu">  
+      <ul class="header__container-links">
         <li>
           <a href="#">Início</a>
           <a href="#">Itens</a>

@@ -11,13 +11,14 @@ document.addEventListener("DOMContentLoaded", ()=>{
   render();
 })
 
-
 function render(){
   let html = /*HTML*/`
-   <div>
+   <div class="main-container">
     ${Header()}
-    ${SectionTop()}
-    ${SectionEstaoFalando()}
+    <section class="sections">
+      ${SectionTop()}
+      ${SectionEstaoFalando()}
+    </section>
     ${Footer()}
    </div>
   `

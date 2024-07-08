@@ -1,21 +1,17 @@
-    .comentario {
-        color: #002244;
-        background-color: #cccccc;
-        padding: 0.5rem;
-        margin-top: 100px;
-    }
-
     .comentario__container {
-        width: 100%;
-        border: 0px solid #ff0000;
+        /* border: 1px solid #ff0000; */
+        margin-bottom: 0.5rem;
+        width: auto;
         border-radius: 1rem;
-        padding: 0.4rem;
         background-color: #dddddd;
-        margin-top: 0.2rem
     }
 
     .comentario__container-dados {
-        display: flex
+        /* border: 1px solid #00ffff; */
+        margin: 0.2 auto;
+        max-width: 100%;
+        display: flex;
+        text-align: center;
     }
 
     .comentario__container-foto {
@@ -23,17 +19,22 @@
     }
 
     .comentario__container-informacoes {
-        margin-left: 1rem
+        /*margin-left: 1rem*/
     }
 
     .comentario__container-informacoes h3 {
-        display: block;
+        /* display: block;*/
         margin: 0
     }
 
     .comentario__container-informacoes span {
         margin: 0
     }
+
+    .comentario__container-comentario {
+        /* border: 1px solid #00ffff; */
+    }
+
 
     .comentario__container-comentario span {
         margin: 0;

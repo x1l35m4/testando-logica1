@@ -1,22 +1,23 @@
 .section-top{
+    /* border: 1px solid #ff0000; */
+    /* width: 100%; */
+    max-width: var(--max-width);
+    margin-top:  var(--header-height);
     color: #002244;
     background-color: #cccccc;
-    padding:0.5rem;
 }
 
 .section-top__container {
     width:100%;
     display: flex;
-    align-items: center;
-    padding:0rem
 }
 
 .section-top__container h2 {
-    margin:0
+ 
 }
 
 .section-top__container h3 {
-    margin:0
+    
 }
 
 .section-top__container p {
@@ -26,3 +27,11 @@
 .section-top__container button {
    
 }
+
+@media screen and (min-width:768px) {
+  
+    .section-top{
+        margin-top: 0;
+    }
+    
+  }
